@@ -1,14 +1,14 @@
 {
   "name": "MD-support",
-  "version": "1.0.0",
-  "description": "",
-  "homepage": "",
+  "version": "1.1.0",
+  "description": "Allow users to use markdown shortcuts",
+  "homepage": "https://github.com/inkcontent/MD-support",
   "main": "src/main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "inkplugin package -o dist"
   },
-  "author": "",
+  "author": "@FarisCode",
   "license": "ISC",
   "ink-plugin": {
     "id": "c46002b7-0a79-4227-af90-019f33aa3914",
