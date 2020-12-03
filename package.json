@@ -1,0 +1,26 @@
+{
+  "name": "MD-support",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "",
+  "main": "src/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "inkplugin package -o dist"
+  },
+  "author": "",
+  "license": "ISC",
+  "ink-plugin": {
+    "id": "c46002b7-0a79-4227-af90-019f33aa3914",
+    "title": "MD Support",
+    "icon": "sample.png",
+    "readme": "readme.md",
+    "module": false
+  },
+  "engines": {
+    "ink": "^2.0.0"
+  },
+  "devDependencies": {
+    "inkplugin": "^0.2.7"
+  }
+}
