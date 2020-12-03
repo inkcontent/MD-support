@@ -8,12 +8,12 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "inkplugin package -o dist"
   },
-  "author": "@FarisCode",
+  "author": "Syed Faris Ahmed",
   "license": "ISC",
   "ink-plugin": {
     "id": "c46002b7-0a79-4227-af90-019f33aa3914",
     "title": "MD Support",
-    "icon": "sample.png",
+    "icon": "icon.png",
     "readme": "readme.md",
     "module": false
   },
