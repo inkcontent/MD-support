@@ -88,4 +88,4 @@ function updateBlocks() {
     .then(blocks => {
       allBlocks = blocks;
     })
-}s
+}
