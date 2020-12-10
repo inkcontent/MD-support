@@ -23,10 +23,10 @@ INKAPI.ready(() => {
     ) {
       if (prevBlockState) {
         if (prevBlockState.text.slice(0, 2) !== text.slice(0, 2)) {
-          Editor.setNodeData({ type: "quote" }, path);
+          Editor.setBlockData({ type: "quote" }, path);
         }
       } else {
-        Editor.setNodeData({ type: "quote" }, path);
+        Editor.setBlockData({ type: "quote" }, path);
       }
       updateBlocks();
       return;
@@ -66,7 +66,7 @@ INKAPI.ready(() => {
       }
 
       if (options) {
-        Editor.setNodeData(options, path);
+        Editor.setBlockData(options, path);
         updateBlocks();
         return;
       }
