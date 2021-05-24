@@ -1,6 +1,6 @@
 {
   "name": "MD-support",
-  "version": "1.2.0",
+  "version": "1.3.0",
   "description": "Allow users to use markdown shortcuts",
   "homepage": "https://github.com/inkcontent/MD-support",
   "main": "src/main.js",
@@ -18,7 +18,7 @@
     "module": false
   },
   "engines": {
-    "ink": "^2.0.0"
+    "ink": ">=2.0.0"
   },
   "devDependencies": {
     "inkplugin": "^0.2.7"
