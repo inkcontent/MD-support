@@ -17,12 +17,12 @@ INKAPI.ready(() => {
     const prevBlockState = getBlockFromKey(key);
     //blockquote check
     if (
-      text.slice(0, 2).includes('> ') &&
+      text.slice(0, 5).includes('&gt; ') &&
       headingSupportTypes.includes(type) &&
       isBlock
     ) {
       if (prevBlockState) {
-        if (prevBlockState.text.slice(0, 2) !== text.slice(0, 2)) {
+        if (prevBlockState.text.slice(0, 5) !== text.slice(0, 5)) {
           Editor.setBlockData({ type: "quote" }, path);
         }
       } else {
